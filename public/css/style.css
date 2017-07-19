@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+header, section, footer {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.ct-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+header, footer {
+  background: #ff071a;
+}
+
+.row {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.row-input {
+  margin-bottom: 15px;
+}
+
+.center {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-login {
+  border-radius: 5px;
+  padding: 20px;
+  float: left;
+  width: 100%;
+  border: 1px solid #ff071a;
+}
+
+.form-login input[type='text'],
+.form-login input[type='password'] {
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: left;
+  height: 55px;
+  width: 100%;
+  float: left;
+  position: relative;
+  color: #b3b3b3;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form-login button {
+  border: 1px solid #ff071a;
+  background: #ff071a;
+  border-radius: 3px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  float: left;
+  position: relative;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.form-login button:hover {
+  background: #ffffff;
+  color: #ff071a;
+}
+
+.form-login h6 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: #ff071a;
+  margin: 10px 0 25px 0;
+}
+
+.form-login .esqueci-senha {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #ff071a;
+  margin: 0px 0 25px 0;
+  text-decoration: none;
+}
+
+.form-login .esqueci-senha:hover {
+  text-decoration: underline;
+}
+
+::-webkit-input-placeholder {
+	color: #b3b3b3;
+}
+
+::-moz-placeholder {
+	color: #b3b3b3;
+}
+
+:-ms-input-placeholder {
+	color: #b3b3b3;
+}
+
+:-moz-placeholder {
+	color: #b3b3b3;
+}
+
+.box-login {
+  float: left;
+  margin: 50px 0 50px 0;
+}
+
+footer img {
+  width: 400px;
+  display: inline-block;
+  margin: 0 auto;
+}
